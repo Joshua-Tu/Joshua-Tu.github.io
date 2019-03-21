@@ -1,0 +1,97 @@
+body {
+    font-family: ;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    /* background: lightblue url("Home_page_1.jpg") no-repeat fixed;
+    background-size: cover; */
+    background-color: rgb(3,133,186)
+}
+
+/* .contact_back_color {
+    display: inline-block;
+    background-color: rgb(10, 153, 29);
+    height: 100%;
+    width:  100%;
+    padding: 0.1em 0.025em ;
+} */
+
+#logo {
+    width: 3em;
+    height:4em; 
+}
+
+.contact_bar {
+    position: relative;
+    /* padding: 0.8em;     */
+    display: inline-block;
+}
+
+.logo_contact {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    padding: 8px 5px;
+}
+
+.tel_Num:active::before {
+    font-size:1em;
+    color: rgb(255, 255, 255);
+    content: "+61-416188523";
+}
+
+.tel_Num:hover::before {
+    font-size:1em;
+    color: rgb(255, 255, 255);
+    content: "+61-416188523";
+}
+
+#avatar {
+    padding: 2em;
+}
+
+#ava_logo {
+    position: relative;
+    top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    position: relative;
+    margin: 0;
+}
+
+#Homepage_text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 10em;
+    height: 15em;
+    border: 0.1em groove rgb(255,227,75)
+}
+
+.navbar {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
