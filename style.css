@@ -2,28 +2,20 @@ body {
     font-family: ;
     font-size: 15px;
     color: rgb(255, 255, 255);
-    /* background: lightblue url("Home_page_1.jpg") no-repeat fixed;
-    background-size: cover; */
-    background-color: rgb(3,133,186)
 }
 
-/* .contact_back_color {
-    display: inline-block;
-    background-color: rgb(10, 153, 29);
-    height: 100%;
-    width:  100%;
-    padding: 0.1em 0.025em ;
-} */
+#Home_Page {
+    background-color: rgb(3,133,186);
+}
 
 #logo {
     width: 3em;
     height:4em; 
+    padding: 0.5em;
 }
 
 .contact_bar {
-    position: relative;
-    /* padding: 0.8em;     */
-    display: inline-block;
+    display: none;
 }
 
 .logo_contact {
@@ -50,7 +42,10 @@ body {
 }
 
 #avatar {
-    padding: 2em;
+    padding: 0;
+    margin-bottom: 2em;
+    border-radius: 50%;
+    border: 0.05em solid rgb(13,33,119);
 }
 
 #ava_logo {
@@ -58,11 +53,10 @@ body {
     top: 3vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
 h1 {
-    display:block;
     text-align: center;
     width: 60%;
     height: 50%;
@@ -84,14 +78,77 @@ h2 {
     justify-content: center;
 }
 
-.nav {
-    width: 10em;
-    height: 15em;
-    border: 0.1em groove rgb(255,227,75)
+
+.navbar a {
+    color: rgb(4, 46, 233);
+    width: 90%;
+    height: 3em;
+    border: 0.1em groove rgb(255,227,75);
+    box-shadow: 5px 5px #000;
+    text-align: center;
+    line-height: 3em;
+}
+
+.about_me {
+    background: url(nav-bar-pics/nav_pic_1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.history {
+    background: url(nav-bar-pics/nav_pic_2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.portfolio {
+    background: url(nav-bar-pics/nav_pic_3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.contact_me {
+    background: url(nav-bar-pics/nav_pic_4.jpg) no-repeat;
+    background-size: cover;
 }
 
 .navbar {
     padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ************Page 2**************** */
+
+.logo2 {
+    display:none;
+}
+
+#About_Me {
+    background-color: rgb(13, 33, 119);
+}
+
+.nav_all button {
+    width: 100vw;
+    height: 2em;
+}
+
+.nav_all {
+    position: sticky;
+    top: 0;
+    width:100%;
     display: flex;
     justify-content: space-around;
+}
+
+.page_title {
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+/* ************Page 3**************** */
+
+#History {
+    background-color: rgb(104, 141, 150);
 }
