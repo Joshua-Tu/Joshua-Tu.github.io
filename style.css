@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Fredoka+One|Kalam');
+
 body {
-    font-family: ;
+    font-family: 'Kalam', cursive, Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
 }
 
 #Home_Page {
@@ -16,6 +31,12 @@ body {
 
 .contact_bar {
     display: none;
+
+}
+
+.contact_bar a img, .bottom_contact_bar a img, .bottom_contact_bar_page_5 a img {
+    width: 45px;
+    height: 45px;
 }
 
 .logo_contact {
@@ -39,6 +60,11 @@ body {
     font-size:1em;
     color: rgb(255, 255, 255);
     content: "+61-416188523";
+}
+
+.bottom_contact_bar {
+    display: flex;
+    justify-content: center;
 }
 
 #avatar {
@@ -80,18 +106,21 @@ h2 {
 
 
 .navbar a {
-    color: rgb(4, 46, 233);
+    color: rgb(250, 250, 11);
     width: 90%;
     height: 3em;
     border: 0.1em groove rgb(255,227,75);
     box-shadow: 5px 5px #000;
     text-align: center;
     line-height: 3em;
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .about_me {
     background: url(nav-bar-pics/nav_pic_1.jpg) no-repeat;
     background-size: cover;
+    border-radius: 1em 1em 0 0;
 }
 
 .history {
@@ -107,6 +136,7 @@ h2 {
 .contact_me {
     background: url(nav-bar-pics/nav_pic_4.jpg) no-repeat;
     background-size: cover;
+    border-radius: 0 0 1em 1em ;
 }
 
 .navbar {
@@ -125,6 +155,7 @@ h2 {
 }
 
 #About_Me {
+    color: rgb(255, 255, 255);
     background-color: rgb(13, 33, 119);
 }
 
@@ -134,21 +165,285 @@ h2 {
 }
 
 .nav_all {
-    position: sticky;
-    top: 0;
-    width:100%;
     display: flex;
     justify-content: space-around;
 }
 
+.logo2_nav_all {
+    position: sticky;
+    top: 0;
+    width:100%;
+}
+
 .page_title {
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1.5em;
     padding-bottom: 1em;
 }
+
+#info_table {
+    width: 90%;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    left: 5%;
+    table-layout: fixed; /* this statement is to make the whole table within the screen limits when shrinking */
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+    border: none;
+}
+
+#hobby_block {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby_title {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+
+.hobby_icon {
+    width: 58px;
+    height: 58px;
+}
+
+#hobby_table {
+    width: 90%;
+    border: none;
+    table-layout: fixed;
+}
+
+#personality_block{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#personalities_title {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+#personalit_icon {
+    width: 70%;
+    height: 350px;
+    border-radius: 1em;
+}
+
+#personality_block a {
+    color: rgb(255, 255, 255);
+    padding:0.5em;
+    margin-bottom: 0.5em;
+}
+
+
 
 /* ************Page 3**************** */
 
 #History {
     background-color: rgb(104, 141, 150);
 }
+
+#history_text p {
+    text-align: center;
+    font-size: 1.5em;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+#history_text h2 {
+    padding-bottom: 0.5em;
+}
+
+#aussie {
+    background: url(aussie_horizontal.png) no-repeat ;
+    background-size: cover;
+}
+
+.aussie_color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 33, 119, 0.6);
+}
+
+#chinese {
+    background: url(chinese_horizontal.png) no-repeat;
+    background-size: cover;
+}
+
+.chinese_color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 58, 25, 0.6);
+}
+
+.exp_table {
+    width: 90%;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 5%;
+    table-layout:fixed;  /* this statement is to make the whole table within the screen limits when shrinking */
+}
+
+.exp_table a img {
+    width: 70px;
+    height: 70px;
+}
+
+#skillsets_title {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+#skillsets img {
+    width: 90px;
+    height: 90px;
+    padding: 1em;
+}
+
+#skillsets_block {
+    padding-bottom: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* ************Page 4***************** */
+#Portfolio {
+    background-color: rgb(255, 227, 75);
+    color: rgb(13, 33, 19);
+}
+
+.portfolio_materials {
+    border-radius: 1em;
+    width: 80%;
+    margin-top: 2em;
+}
+
+#my_video iframe {
+    border-radius: 1em;
+    width: 90%;
+    height: 300px;
+    margin-top: 1em;
+}
+
+.middle_column section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_column {
+    border: 5px groove rgb(3, 133, 186);
+    border-radius: 1em;
+    padding-bottom: 1.5em;
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.html_css_column {
+    margin-bottom: 2em;
+}
+
+/***********************Page 5 Contact *************************/
+#Contact {
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 25, 70)
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#contact_title {
+    text-align: center;
+}
+
+#contact_title h2 {
+    width: 100%;
+    padding-top: 1em;
+}
+  
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 170px;
+}
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+/* Style the container/contact section */
+.container {
+    padding: 10px;
+}
+  
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+#gmap_canvas {
+    display: block;
+    width: 100%; 
+    height: 15em;
+    border-radius: 1em;
+}
+
+.bottom_contact_bar_page_5 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/************************** */

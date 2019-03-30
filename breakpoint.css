@@ -1,0 +1,168 @@
+@media only screen and (max-width: 400px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    table {
+        overflow-x: auto;
+        display: block;
+        font-size: 10px;
+    }
+
+    .exp_table a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #skillsets img {
+        width: 60px;
+        height: 60px;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    
+    body {
+        font-size: 20px;
+    }
+
+
+    #logo {
+        width: 3em;
+        height:4em; 
+    }
+
+    .bottom_contact_bar {
+        display: none;
+    }
+
+    .contact_bar {
+        position: relative;
+        display: inline-block;
+    }
+
+    .navbar a {
+        width: 13em;
+        height: 17em;
+        border: 0.1em groove rgb(255,227,75);
+        text-align: center;
+        line-height: 17em;
+        box-shadow: 5px 5px #000;
+        border-radius: 50%;
+        font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .navbar {
+        padding-top: 3em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        position:relative;
+        top: 0.8em;
+    }
+    
+    .logo2 {
+        display:block;
+        position: relative;
+        left: 43%;
+        width: 12em;
+        height: 5em;
+        padding: 1em;
+    }
+
+    .nav_all {
+        position: sticky;
+        top: 0;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+/**********************page 2****************************/
+
+    #hobby_block, #personality_block {
+        display: inline-block;
+        width: 50%;
+    }
+    #hobby_personality_blocks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #personality_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+
+    #hobby_personality_blocks h3 {
+        text-align: center;
+    }
+
+    #hobby_table {
+        width: 100%;
+        border:none;
+        height:350px;
+    }
+
+    #hobby_table img {
+        widows: 65px;
+        height: 65px;
+    }
+
+    .hobby_title {
+        margin: 0;
+    }
+
+/***************Page 3***********************/
+    
+    #skillsets img {
+        width: 110px;
+        height:110px;
+        padding: 1em;
+    }
+
+    #aussie_chinese_block {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+/**************page 4************************/
+    #portfolio_list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .side_column {
+        padding-left: 0em;
+        padding-right: 0em;
+        margin-left: 0.5em;
+        margin-right:0.5em;
+    }
+
+/*****************Page 5********************/
+    #gmap_canvas {
+        display: block;
+        width: 100%; 
+        height: 22em;
+        border-radius: 1em;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+

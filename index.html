@@ -7,12 +7,38 @@
         <link rel="stylesheet" type="text/css" href="normalize.css" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="breakpoint.css" />
+        <link rel="icon" href="logo.png" type="image/png" sizes="16x16" />
     </head>
     <body>
-        <section id="Home_Page">
-            <section class="logo_contact">
-                <img id="logo" src="Logo.jpg" />
-                <div class="contact_bar">
+        <main>
+            <section id="Home_Page">
+                <section class="logo_contact">
+                    <img id="logo" src="Logo.jpg" alt="Joshua's logo" />
+                    <div class="contact_bar">
+                        <a href="" class="tel_Num" title="Josh's telephone number: +61 416188523"><img class="contact"  src="contact_icons\tel.png" /></a>
+                        <a href="mailto:tjh8523@gmail.com"><img class="contact" src="contact_icons\mail.png" /></a>
+                        <a href="https://www.facebook.com/jinhua.tu.9" target="_blank"><img class="contact" src="contact_icons\facebook.png" /></a>
+                        <a href="https://github.com/Joshua-Tu" target="_blank"><img class="contact" src="contact_icons\Github.png" /></a> 
+                        <a href="https://medium.com/@jinhuatu" target="_blank"><img class="contact" src="contact_icons\Medium.png" /></a>
+                        <a href="https://www.linkedin.com/in/joshua-tu/" target="_blank"><img class="contact" src="contact_icons\LinkedIn.png" /></a>
+                    </div>
+                </section>
+                <div id="ava_logo">
+                    <img id="avatar" src="avatar.jpg" />
+                </div>
+                <article id="Homepage_text">
+                    <h1>Joshua Tu</h1>
+                    <h2>Full-Stack Seveloper In Training & Former Nuclear Power Guy</h2>
+                    <h3>Progress Every Day</h3>
+                </article>
+
+                <nav class="navbar">
+                    <a class="about_me" href="#About_Me" >Info</a>
+                    <a class="history" href="#History">History</a>
+                    <a class="portfolio" href="#Portfolio">Portfolio</a>
+                    <a class="contact_me" href="#Contact_Me">Contact</a>
+                </nav>
+                <div class="bottom_contact_bar">
                     <a href="" class="tel_Num"><img class="contact"  src="contact_icons\tel.png" /></a>
                     <a href="mailto:tjh8523@gmail.com"><img class="contact" src="contact_icons\mail.png" /></a>
                     <a href="https://www.facebook.com/jinhua.tu.9" target="_blank"><img class="contact" src="contact_icons\facebook.png" /></a>
@@ -21,76 +47,248 @@
                     <a href="https://www.linkedin.com/in/joshua-tu/" target="_blank"><img class="contact" src="contact_icons\LinkedIn.png" /></a>
                 </div>
             </section>
-            <div id="ava_logo">
-                <img id="avatar" src="avatar.jpg" />
-            </div>
-            <article id="Homepage_text">
-                <h1>
-                    Joshua Tu
-                </h1>
-                <h2>
-                A full-stack developer in training, previously a project engineer and a quality assurance engineer in nuclear power industry.
-                </h2>
-            </article>
 
-            <nav class="navbar">
-                <a class="about_me" href="#About_Me" >About Me</a>
-                <a class="history" href="#History">History</a>
-                <a class="portfolio" href="#Portfolio">Portfolio</a>
-                <a class="contact_me" href="#Contact_Me">Contact Me</a>
-            </nav>
+    <!-- ****************page 2************** -->
+
+            <section id="About_Me">
+                <section class="logo2_nav_all">
+                    <img class="logo2" src="logo2.jpg" />
+                    <nav class="nav_all">
+                        <button><a class="nav_1" href="#About_Me" >Info</a></button>
+                        <button><a class="nav_2" href="#History">History</a></button>
+                        <button><a class="nav_3" href="#Home_Page">Home</a></button>
+                        <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
+                        <button><a class="nav_5" href="#Contact_Me">Contact</a></button>
+                    </nav>
+                </section>
+                <section>
+                <article id="about_me_text">
+                    <h2 class="page_title">Info</h2>
+                    <table id="info_table">
+                        <tr>
+                            <td>Name: Joshua Tu</td>
+                            <td>Job: Full-Stack Developer</td>
+                        </tr>
+                        <tr>
+                                <td>Age: 33</td>
+                                <td>Visa Tpye: Skilled-Selected PR (190)</td>
+                        </tr>
+                        <tr>
+                                <td>Zodiac: Aquarius</td>
+                                <td>Live in: Sydney, NSW, Aus</td>
+                        </tr>
+                    </table>
+                </article>
+                    <section id="hobby_personality_blocks">
+                        <section id="hobby_block">
+                            <h3 class="hobby_title">Hobbies</h2>
+                            <table id="hobby_table">
+                                <tr>
+                                    <td><img class="hobby_icon"  src="icons\astronomy.png" /></td>
+                                    <td><img class="hobby_icon"  src="icons\violin.png" /></td>
+                                    <td><img class="hobby_icon"  src="icons\taekwon-do.png" /></td>
+                                </tr>
+                                <tr>
+                                    <td><img class="hobby_icon"  src="icons\cooking.png" /></td>
+                                    <td><img class="hobby_icon"  src="icons\scubadiving.png" /></td>
+                                    <td><img class="hobby_icon"  src="icons\swimming.png" /></td>
+                                </tr>
+                            </table>
+                        </section>
+                        <section id="personality_block">
+                            <h3 id="personalities_title">Personalities</h3>
+                            <img src="Personalities.png" id="personalit_icon" />
+                            <a href="https://www.16personalities.com/" target="_black">https://www.16personalities.com/</a>
+                        </section>
+                    </section>
+            </section>
+
+
+    <!-- ******************************page 3****************************** -->
+
+            <section id="History">
+                    <!-- <section class="logo2_nav_all">
+                        <img class="logo2" src="logo2.jpg" />
+                        <nav class="nav_all">
+                            <button><a class="nav_1" href="#About_Me" >Info</a></button>
+                            <button><a class="nav_2" href="#History">History</a></button>
+                            <button><a class="nav_3" href="#Home_Page">Home</a></button>
+                            <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
+                            <button><a class="nav_5" href="#Contact_Me">Contact</a></button>
+                        </nav>
+                    </section> -->
+
+                    <article id="history_text">
+                        <h2 class="page_title">History</h2>
+                        <p id="summary">Highly motivated, tech-savvy professional with over 10 years’ work experience as an engineer at one of the leading central enterprises of China specialized in power equipment manufacturing and nationwide power projects contracting. Effective leadership skills in organizing a team for success, namely being adept at defining expectations, problem-solving, distributing the workload. Extensive project management and quality assurance experience. </p>
+                        <section id="aussie_chinese_block">
+                                <section id="aussie">
+                                    <div class="aussie_color">
+                                        <table class="exp_table">
+                                            <tr>
+                                                <td>18/2/2019 ~ Present</td>
+                                                <td>Full-Stack Developer in training</td>
+                                                <td>AIT-Coder Academy</td>
+                                                <td><a href="https://coderacademy.edu.au" target="_blank"><img src="icons\CA.png" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>27/2/2017 ~ 10/11/2018</td>
+                                                <td>Research Student (Nuclear Power Engineering)</td>
+                                                <td>University of New South Wales</td>
+                                                <td><a href="https://www.unsw.edu.au" target="_blank"><img src="icons\UNSW.png" /></a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </section>
+                                <section id="chinese">
+                                    <div class="chinese_color">
+                                        <table class="exp_table">
+                                            <tr>
+                                                <td>1/7/2012 ~ 9/1/2017</td>
+                                                <td>Quality Assurance Engineer</td>
+                                                <td>Dongfang Electric Corporation.Ltd</td>
+                                                <td><a href="http://www.dongfang.com.cn/" target="_blank"><img src="icons\DEC.png" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>28/6/2006 ~ 1/7/2012</td>
+                                                <td>Project Engineer</td>
+                                                <td>Dongfang Electric Corporation.Ltd</td>
+                                                <td><a href="http://www.dongfang.com.cn/" target="_blank"><img src="icons\DEC.png" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1/9/2002 ~ 24/6/2006</td>
+                                                <td>Bachelor's Degree (Mechanical Engineering)</td>
+                                                <td>Huazhong University of Science and Technology</td> 
+                                                <td><a href="http://english.hust.edu.cn/" target="_blank"><img src="icons\HUST.png" /></a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </section>
+                        </section>
+                            <section id="skillsets">
+                                <h3 id="skillsets_title">skillsets</h3>
+                                <section id="skillsets_block">
+                                    <img id="python" src="icons\python.png">
+                                    <img id="ruby" src="icons\Ruby.png">
+                                    <img id="javascript" src="icons\javascript.png">
+                                    <img id="html_css" src="icons\html_css.png">
+                                    <img id="matlab" src="icons\Matlab.png">
+                                    <img id="french" src="icons\French.png">
+                                    <img id="cn" src="icons\CN.png">
+                                    <img id="iso" src="icons\ISO9001.png">
+                                    <img id="pm" src="icons\PM.png">
+                                    <img id="ps" src="icons\ps.png">
+                                </section>
+                        </section>
+                    </article> 
         </section>
 
-        <section id="About_Me">
-            <img class="logo2" src="logo2.jpg" />
-            <nav class="nav_all">
-                <button><a class="nav_1" href="#About_Me" >About Me</a></button>
-                <button><a class="nav_2" href="#History">History</a></button>
-                <button><a class="nav_3" href="#Home_Page">Home</a></button>
-                <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
-                <button><a class="nav_5" href="#Contact_Me">Contact Me</a></button>
-            </nav>
-            <h2 class="page_title">About Me</h2>
-        </section>
 
-        <section id="History">
-                <img class="logo2" src="logo2.jpg" />
-                <nav class="nav_all">
-                    <button><a class="nav_1" href="#About_Me" >About Me</a></button>
-                    <button><a class="nav_2" href="#History">History</a></button>
-                    <button><a class="nav_3" href="#Home_Page">Home</a></button>
-                    <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
-                    <button><a class="nav_5" href="#Contact_Me">Contact Me</a></button>
-                </nav>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facilis deserunt laudantium odit alias et. Rem, itaque consequuntur rerum debitis obcaecati officia nobis, unde voluptatem magnam nulla laborum ex aliquam.</p>
+    <!-- ******************************page 4****************************** -->
+            <section id="Portfolio">
+                <!-- <section class="logo2_nav_all">
+                    <img class="logo2" src="logo2.jpg" />
+                    <nav class="nav_all">
+                        <button><a class="nav_1" href="#About_Me" >Info</a></button>
+                        <button><a class="nav_2" href="#History">History</a></button>
+                        <button><a class="nav_3" href="#Home_Page">Home</a></button>
+                        <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
+                        <button><a class="nav_5" href="#Contact_Me">Contact</a></button>
+                    </nav>
+                </section> -->
 
-        </section>
+                <section id="contact_title">
+                        <h2>Portfolio</h2>
+                </section>
+                <section id="portfolio_list">
+                        <section class="side_column">
+                            <h3>Project_1_Fitsy</h3>
+                            <img src="proj1_1.png" class="portfolio_materials projects" alt="Project Progress Chart Trello" />
+                            <img src="proj1_2.png" class="portfolio_materials projects" alt="Fitsy fitness professional list" />
+                            <img src="proj1_3.png" class="portfolio_materials projects" alt="Fitsy screened fitness professional list" />
+                        </section>
+                        <section class="middle_column">
+                                <section id="github">
+                                    <img src="Github.png" class="portfolio_materials" alt="Josh's Github status" />
+                                    <p>My Github Status</p>
+                                </section>
+                                <section id="my_video">
+                                    <iframe src="https://www.youtube.com/embed/KWkWw32e8Us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p>My own edited video</p>
+                                </section>
+                                <section id="code_wars">
+                                        <img src="code_wars.png" class="portfolio_materials" alt="Josh's code wars status" />
+                                        <p>My Code Wars Status</p>
+                                </section>
+                            </section>
+                        <section class="side_column html_css_column">
+                                <h3>HTML/CSS Practice</h3>
+                                <img src="css_zen_garden_0.png" class="portfolio_materials projects" alt="Origninal website of Zen garden" />
+                                <img src="css_zen_garden.png" class="portfolio_materials projects" alt="Modified CSS for Zen garden website" />
+                                <p>CSS Zen Garden Practice</p>
+                                <img src="html_practice.png" class="portfolio_materials projects" alt="html practice: website of tfboys" />
+                                <p>HTML Practice</p>
+                        </section>
 
+
+                </section>
+            
+
+
+            </section>
+
+
+    <!-- ******************************page 5****************************** -->
+            <section id="Contact_Me">
+                <!-- <section class="logo2_nav_all">
+                    <img class="logo2" src="logo2.jpg" />
+            `       <nav class="nav_all">
+                        <button><a class="nav_1" href="#About_Me" >Info</a></button>
+                        <button><a class="nav_2" href="#History">History</a></button>
+                        <button><a class="nav_3" href="#Home_Page">Home</a></button>
+                        <button><a class="nav_4" href="#Portfolio">Portfolio</a></button>
+                        <button><a class="nav_5" href="#Contact_Me">Contact</a></button>
+                    </nav>
+                </section> -->
+                <section class="container">
+                    <section id="contact_title">
+                        <h2>Contact Me</h2>
+                        <h3>Swing by for a cup of coffee or scuba diving, or leave me a message:</p>
+                    </section>
+                    <section class="row">
+                        <section class="column">
+                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2%2F44%20Waratah%20Ave%2C%20NWS%202031%2C%20Australia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>                        
+                        </section>
+                        <section class="column">
+                            <form action="/action_page.php">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                    <option value="australia">Australia</option>
+                                    <option value="china">China</option>
+                                    <option value="canada">Canada</option>
+                                </select>
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                                <input type="submit" value="Submit" />
+                            </form>
+                        </section>
+                    </section>
+                </section>
+                <div class="bottom_contact_bar_page_5">
+                        <a href="" class="tel_Num"><img class="contact"  src="contact_icons\tel.png" /></a>
+                        <a href="mailto:tjh8523@gmail.com"><img class="contact" src="contact_icons\mail.png" /></a>
+                        <a href="https://www.facebook.com/jinhua.tu.9" target="_blank"><img class="contact" src="contact_icons\facebook.png" /></a>
+                        <a href="https://github.com/Joshua-Tu" target="_blank"><img class="contact" src="contact_icons\Github.png" /></a> 
+                        <a href="https://medium.com/@jinhuatu" target="_blank"><img class="contact" src="contact_icons\Medium.png" /></a>
+                        <a href="https://www.linkedin.com/in/joshua-tu/" target="_blank"><img class="contact" src="contact_icons\LinkedIn.png" /></a>
+                    </div>
+            </section>
+        </main>
     </body>
 </html>
+
+
